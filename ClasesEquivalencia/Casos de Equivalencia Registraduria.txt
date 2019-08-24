@@ -1,0 +1,15 @@
+Clases de equivalencia.
+
+Muertos: Personas que a la fecha de votacion hayan muerto no podran votar.
+
+Edad Validad: Personas con registro de edad negativas o mayores a 130 años no podran votar.
+
+Mayores de Edad: Personas menores de 18 años no podran votar.
+
+Duplicados: Personas con la misma id registradas no podran votar.
+
+Nombres Feos: Personas con los nombres de "Sneider" o "Yeimi" o "Hassam" o "Tulio".
+
+
+
+
