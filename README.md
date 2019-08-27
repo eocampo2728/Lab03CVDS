@@ -88,86 +88,93 @@ El resultado esperado es que la tarifa a cobrar tenga un descuento del 23% con r
 ### Parametros invalidos:
 Los limites para los parametros invalidos serian:
 	
- tarifaBase <= 0
-diasDeAntelacion < 0
-130 < edadPasajero < 0
+	 tarifaBase <= 0
+	diasDeAntelacion < 0
+	130 < edadPasajero < 0
 
 ### No aplica descuento:
 Los limites para que no aplique descuento serian:
 
-diasDeAntelacion < 20
-18 < edadPasajero < 65 
+	diasDeAntelacion < 20
+	18 < edadPasajero < 65 
 
 ### Descuento del 15%:
 Los limites para que aplique descuento del 15% serian:
 
-diasDeAntelacion > 20
-18 < edadPasajero < 65 
+	diasDeAntelacion > 20
+	18 < edadPasajero < 65 
 
 ### Descuento del 5%:
 Los limites para que aplique descuento del 5% serian:
 
-diasDeAntelacion < 20
-0 < edadPasajero < 18
+	diasDeAntelacion < 20
+	0 < edadPasajero < 18
 
 ### Descuento del 8%:
 Los limites para que aplique descuento del 8% serian:
 
-diasDeAntelacion < 20
-65 < edadPasajero 
+	diasDeAntelacion < 20
+	65 < edadPasajero 
 
 ### Descuento del 20%:
 Los limites para que aplique descuento del 20% serian:
 
-diasDeAntelacion > 20
-0 < edadPasajero < 18
+	diasDeAntelacion > 20
+	0 < edadPasajero < 18
 
 ### Descuento del 23%:
 Los limites para que aplique descuento del 23% serian:
 
-diasDeAntelacion > 20
-65 < edadPasajero 
+	diasDeAntelacion > 20
+	65 < edadPasajero 
 
 ## 5) Casos de Prueba
 
 ### Parametros invalidos:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = -1000
-diasDeAntelacion = -1
-edadPasajero = -1
+	
+	tarifaBase = -1000
+	diasDeAntelacion = -1
+	edadPasajero = -1
 
 ### No aplica descuento:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 5
-edadPasajero = 33
+
+	tarifaBase = 60000
+	diasDeAntelacion = 5
+	edadPasajero = 33
 
 ### Descuento del 15%:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 21
-edadPasajero = 33
+
+	tarifaBase = 60000
+	diasDeAntelacion = 21
+	edadPasajero = 33
 
 ### Descuento del 5%:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 19
-edadPasajero = 15
+
+	tarifaBase = 60000
+	diasDeAntelacion = 19
+	edadPasajero = 15
 
 ### Descuento del 8%:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 21
-edadPasajero = 66
+	
+	tarifaBase = 60000
+	diasDeAntelacion = 21
+	edadPasajero = 66
 
 ### Descuento del 20%:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 22
-edadPasajero = 17
+
+	tarifaBase = 60000
+	diasDeAntelacion = 22
+	edadPasajero = 17
 
 ### Descuento del 23%:
 Un caso de prueba especifico en este caso seria:
-tarifaBase = 60000
-diasDeAntelacion = 22
-edadPasajero = 70
+
+	tarifaBase = 60000
+	diasDeAntelacion = 22
+	edadPasajero = 70
