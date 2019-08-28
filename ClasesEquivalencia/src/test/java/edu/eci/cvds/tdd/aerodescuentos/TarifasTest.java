@@ -5,14 +5,8 @@
  */
 package edu.eci.cvds.tdd.aerodescuentos;
 
-import edu.eci.cvds.tdd.registry.*;
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -26,6 +20,6 @@ public class TarifasTest {
     @Test
     public void deberiaTenerDescuentoMenorDeEdad() {
         double respuesta = 95.0;
-        Assert.assertEquals(respuesta, CalculadorDescuentos.calculoTarifa(100,10,14));
+        Assert.assertEquals(respuesta, CalculadorDescuentos.calculoTarifa(100,10,14),0);
     }
 }
