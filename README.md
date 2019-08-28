@@ -1,7 +1,7 @@
 # Integrantes:
 
-	- Eduardo Ocampo
-	- Juan Navarro
+- Eduardo Ocampo
+- Juan Navarro
 
 # Ejercicio Descuento de tarifas
 
