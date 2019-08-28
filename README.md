@@ -88,7 +88,7 @@ El resultado esperado es que la tarifa a cobrar tenga un descuento del 23% con r
 ### Parametros invalidos:
 Los limites para los parametros invalidos serian:
 	
-tarifaBase <= 0
+tarifaBase <= 0. (space, space)
 diasDeAntelacion < 0
 130 < edadPasajero < 0
 
