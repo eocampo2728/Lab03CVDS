@@ -18,6 +18,19 @@ public class TarifasTest {
     }
     
     @Test
+    public void noDeberiaCorrer() {
+        boolean valid;
+        try{
+            valid = true;
+            double respuesta = CalculadorDescuentos.calculoTarifa(-100,-1,-1);
+        }catch(Exception e){
+            valid = false;
+            Assert.assertFalse(valid);
+        }
+        
+    }
+    
+    @Test
     public void noDeberiaTenerDescuento() {
         double respuesta = 100.0;
         Assert.assertEquals(respuesta, CalculadorDescuentos.calculoTarifa(100,10,20),0);
