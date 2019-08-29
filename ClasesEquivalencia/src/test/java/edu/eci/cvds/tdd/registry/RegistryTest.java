@@ -3,7 +3,7 @@ package edu.eci.cvds.tdd.registry;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class RegistryTest {
+public class RegistryTest { 
 
     private Registry registry = new Registry();
 
