@@ -9,9 +9,9 @@
 
 ### Deberia generar parametros invalidos cuando:
 
-**Tarifa Base:** tiene que ser mayor a 0.
-**Dias de antelacion:** Tiene que ser un numero positivo.
-**Edad:** La edad del pasajero tiene que ser mayor a 0 y menor a 130.
+- **Tarifa Base:** tiene que ser mayor a 0.
+- **Dias de antelacion:** Tiene que ser un numero positivo.
+- **Edad:** La edad del pasajero tiene que ser mayor a 0 y menor a 130.
 
 
 ##  2) Clases de Equivalencia.
